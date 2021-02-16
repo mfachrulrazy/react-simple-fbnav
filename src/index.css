@@ -40,6 +40,13 @@ a {
   border-bottom: var(--border);
 }
 
+.navbar h1 {
+  padding: 0;
+  margin: 15px 0 0 0;
+  float: left;
+  color: white;
+}
+
 .navbar-nav {
   max-width: 100%;
   height: 100%;
@@ -117,10 +124,13 @@ a {
   transform: translateY(-50%);
 }
 
+.icon-right svg {
+  fill: #a0a0a0;
+}
+
 .menu {
   width: 100%;
 }
-
 
 /* the transition */
 .menu-primary-enter {
